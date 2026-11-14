@@ -35,7 +35,7 @@
     "test:e2e:reset": "wp-env run tests-cli wp content-connect-example delete --yes && wp-env run tests-cli wp content-connect-example generate"
   },
   "dependencies": {
-    "@10up/block-components": "^1.22.4",
+    "@10up/block-components": "github:s3rgiosan/block-components#develop-built",
     "10up-toolkit": "^7.0.0"
   },
   "10up-toolkit": {
@@ -48,8 +48,8 @@
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@wordpress/api-fetch": "^7.18.0",
-    "@wordpress/e2e-test-utils-playwright": "^2.0.0",
     "@wordpress/data": "^10.18.0",
+    "@wordpress/e2e-test-utils-playwright": "^2.0.0",
     "@wordpress/edit-post": "^8.18.0",
     "@wordpress/editor": "^14.18.0",
     "@wordpress/env": "^12.0.0",
